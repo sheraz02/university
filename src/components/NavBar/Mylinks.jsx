@@ -21,7 +21,7 @@ export const links = [
             { name: "Mechanical Engineering", link: "/mechanical-engineering" },
             { name: "Civil Engineering", link: "/civil-engineering" },
             { name: "Computer Science", link: "/computer-science" },
-            { name: "Information Technology", link: "/information-technolygy" },
+            { name: "Information Technology", link: "/information-technology" },
           ],
         },
         {

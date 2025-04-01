@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import {slides} from '../constants/Banner';
+import {slides} from '../../constants/Banner';
 
 const Banner = () => {
    

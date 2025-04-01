@@ -1,11 +1,11 @@
-import Banner from "./Banner";
-import Category from "./Category";
-import Departments from "./Departments";
-import ProServices from "./ProServices";
-import Blog from "./Blog";
-import ImageGallery from "./ImageGallery";
-import MyPlayer from "./videoPlayer";
-import Footer from "./Footer";
+import Banner from "./HomeComponents/Banner";
+import Category from "./HomeComponents/Category";
+import Departments from "./HomeComponents/Departments";
+import ProServices from "./HomeComponents/ProServices";
+import Blog from "./HomeComponents/Blog";
+import ImageGallery from "./HomeComponents/ImageGallery";
+import MyPlayer from "./HomeComponents/videoPlayer";
+import Footer from "./HomeComponents/Footer";
 
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
         <Blog />
         <ImageGallery />
         <MyPlayer />
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
   }
