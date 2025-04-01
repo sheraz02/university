@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { Departs } from "./constants/Departs";
+import { Departs } from "../constants/Departs";
 import { RxArrowTopRight } from "react-icons/rx";
 import { FreeMode, Pagination } from "swiper/modules";
 

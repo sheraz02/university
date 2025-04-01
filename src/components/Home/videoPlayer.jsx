@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import video from '../assets/USPMultan.mp4'
+import video from '../../assets/USPMultan.mp4'
 
 
 function MyPlayer() {

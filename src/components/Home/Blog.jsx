@@ -1,9 +1,9 @@
 const posts = [
     {
         id: 1,
-        title: "Boost your conversion rate.",
+        title: "You’re Not a Criminal, But You’re Going to Jail: My ICE Detention Story as a Canadian Citizen",
         href: "#",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        description: "I grew up in Whitehorse, Yukon, a small town in the northernmost part of Canada. I started working when I was 12 years old and always knew I wanted to do something bigger with my life.",
         imageUrl: "https://images.unsplash.com/photo-1743024282286-5bfecf55a834?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         date: "Mar 16, 2020",
         dateTime: "2020-03-16",
@@ -20,9 +20,9 @@ const posts = [
     },
     {
         id: 2,
-        title: "Grow your audience.",
+        title: "What Game Theory Can Tell Us About Tariffs",
         href: "#",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        description: "Game theory was initially created to address two-person zero-sum games. In these instances, one participant’s gains or losses are exactly balanced by the losses and gains of the other participant.",
         imageUrl: "https://images.unsplash.com/photo-1742740981372-39252206c52d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         date: "Apr 10, 2021",
         dateTime: "2021-04-10",
@@ -39,15 +39,16 @@ const posts = [
     },
     {
         id: 3,
-        title: "Grow your audience.",
+        title: "In the Writers’ Room Where It Happened: ‘Twin Peaks’",
         href: "#",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        description: "This week, I’ve asked my screenwriter Harley Peyton to serve as a guest contributor here. He got his start in Hollywood penning the adaptation of Bret Easton Ellis’s novel Less Than Zero (1987).",
         imageUrl: "https://images.unsplash.com/photo-1742740981372-39252206c52d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         date: "Apr 10, 2021",
         dateTime: "2021-04-10",
         category: [
             { title: "Business", href: "#" },
             { title: "Finance", href: "#" },
+            { title: "Entertainment", href: "#" },
         ],
         author: {
             name: "Sarah Johnson",

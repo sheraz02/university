@@ -1,40 +1,45 @@
 import { useState } from 'react'
-
+import Logo from './assets/logo.webp';
 import './App.css'
-import Navbar from './components/Navbar';
-import Counter from './components/Counter';
-import PopularServices from './components/PupularServices';
-import ProServices from './components/ProServices';
-import Carousel from './components/Carousel';
-import Banner from './components/Banner';
-import Departments from './components/Departments';
-import MyPlayer from './components/videoPlayer';
-import Footer from './components/Footer';
-import ImageGallery from './components/ImageGallery';
-import Category from './components/Category';
-import Blog from './components/Blog';
-// import Ee from './components/Ee';
-function App() {
-  const [count, setCount] = useState(0)
+import { BrowserRouter as Router, Route, Routes, useLocation, Link } from "react-router-dom";
+import DesktopMenu from './components/NavBar/DesktopMenu';
+import { Menus } from './components/constants/utils';
+import Navbar from './components/NavBar/Navbar';
+import Economics from './components/departments/Economics';
+import NavLinks from './components/NavBar/NavLinks';
+import Home from './components/Home/Home';
+import Psychology from './components/departments/Psychology';
+import MassCommunication from './components/departments/MassCommunication';
+import Mathematics from './components/departments/Mathematics';
+
+function Layout() {
+  const location = useLocation();
+  const fullPageRoutes = ["/economics", "/psychology", "/mass-communication",
+    "mathematics",
+  ]; // Routes that should render as full pages
 
   return (
     <>
-     <Navbar />
-     
-     <Banner />
-     <Category />
-     <Departments />
-     {/* <Counter /> */}
-     {/* <PopularServices /> */}
-     <ProServices />
-     <Blog />
-     <ImageGallery />
-     {/* <Carousel />  */}
-     <MyPlayer />
-     <Footer />
-     {/* <Ee /> */}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Home Page Route */}
+        <Route path="/economics" element={<Economics />} />
+        <Route path="/psychology" element={<Psychology />} />
+        <Route path="/mass-communication" element={<MassCommunication />} />
+        <Route path="/mathematics" element={<Mathematics />} />
+      </Routes>
+      
     </>
+      
   );
-};
+}
 
-export default App
+function App() {
+  return (
+    
+      <Layout />
+    
+  );
+}
+
+export default App;

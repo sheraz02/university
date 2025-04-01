@@ -1,5 +1,5 @@
 import React from "react";
-import { STUDENTAFFAIRS, POLICIES, SITELINKS, CONTACT } from "./constants/Menus";
+import { STUDENTAFFAIRS, POLICIES, SITELINKS, CONTACT } from "../constants/Menus";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP, FaTimes } from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 
